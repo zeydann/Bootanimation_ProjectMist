@@ -1,14 +1,11 @@
 #!/bin/bash
 
 # URL file yang ingin didownload
-FILE_URL="https://raw.githubusercontent.com/username/repo/branch/path/to/bootanimation.zip"
+FILE_URL="https://raw.githubusercontent.com/zeydann/test/refs/heads/main/script.sh"
 
 # Path tujuan download
-DEST_DIR="vendor/mist/prebuilt"
-DEST_FILE="$DEST_DIR/bootanimation.zip"
-
-# Buat folder tujuan kalau belum ada
-mkdir -p "$DEST_DIR"
+DEST_DIR="vendor/mist/prebuilts/bootanimation/"
+DEST_FILE="$DEST_DIR/bootanimation_mist.zip"
 
 # Download file
 echo "📥 Downloading bootanimation.zip from GitHub..."
