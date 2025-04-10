@@ -1,1 +1,1 @@
-# bootanimation
+bootanimation mistos small
